@@ -47,6 +47,79 @@
 		</a>
 		<br>
 	</div>
+
+	<br>
+
+	<form>
+
+		<label>
+			Correo electronico
+		</label>
+		<input type="email" name="" value="gabriel44@gmail.com" readonly>
+
+		<br>
+
+		<label for="nombre">
+			Ingrese su nombre:
+		</label>
+		<input type="text" name="name" id="nombre" autofocus value="" 
+		minlength="5" maxlength="10" size="50" required pattern="[A-Za-z]{3}"
+		title="Solo 3 letras">
+
+		<br>
+
+		<label for="apellido">
+			Ingrese su apellido:
+		</label>
+		<input type="text" name="lasname" id="apellido" placeholder="Castillo"
+		value="" required disabled>
+
+		<br><br>
+
+		<label>
+			Telefono
+		</label>
+		<input type="number" min="5" max="10" step="2" name="">
+
+		<br><br>
+	
+		<label>
+			 Genero:
+		</label>
+		<label for="Mujer">
+			Mujer:
+		</label>
+		<input type="radio" name="gender" value="Mujer" id="Mujer">
+		<label for="Hombre">
+			Hombre:
+		</label>
+		<input type="radio" name="gender" value="Hombre" id="Hombre">
+		
+		<br><br>
+
+		<label>
+			Preferencias:
+		</label>
+
+		<label for="Pizza">
+			Pizza
+		</label>
+		<input type="checkbox" name="Preferencias" value="pizza" id="Pizza">
+		<label for="Pozole">
+			Pozole
+		</label>
+		<input type="checkbox" name="Preferencias" value="pozole" id="Pozole">
+
+		<br><br>
+
+		<input type="submit" name="" value="Guardar">
+
+		<br><br>
+
+		<input type="button" name="" value="Hola">
+
+
+	</form>
 	
 </body>
 
