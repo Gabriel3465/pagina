@@ -1,0 +1,19 @@
+h1{
+    background-color: blueviolet;
+}
+
+p{
+    background-color: coral;
+}
+
+p:hover{
+	background-color: cyan;
+}
+
+.lista-1 li:first-child{
+    color: brown;
+}
+
+.lista-peliculas li:last-child{
+    color: chartreuse;
+}
