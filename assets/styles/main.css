@@ -1,3 +1,13 @@
+@font-face {
+    font-family: driftline;
+    src: url('../fonts/driftline/Driftline.ttf');
+}
+
+@font-face {
+    font-family: tena;
+    src: url('../fonts/super_trend/Super\ Trend.ttf');
+}
+
 h1{
     font-family: driftline;
     background-color: blueviolet;
@@ -26,15 +36,22 @@ p:hover{
 }
 
 .lista-peliculas li:last-child{
-    color: chartreuse;
+    color: rgb(122, 144, 100);
 }
 
-@font-face {
-    font-family: driftline;
-    src: url('../fonts/driftline/Driftline.ttf');
+.border_paragraph{
+    border: 20px;
+    border-style: double;
+    border-radius: 20px;
 }
 
-@font-face {
-    font-family: tena;
-    src: url('../fonts/super_trend/Super\ Trend.ttf');
+.entradas{
+    background-color: blueviolet;
+    text-align: center;
+    margin: 80px;
+}
+
+
+#cover{
+    width: 200px;
 }
