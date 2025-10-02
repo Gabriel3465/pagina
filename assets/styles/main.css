@@ -76,8 +76,6 @@ p:hover{
 
   column-gap: 10px;
   row-gap: 10px;
-
-
 }
 
 .container > div {
@@ -106,4 +104,48 @@ p:hover{
 .footer_grid{
     grid-column-start: 1;
     grid-column-end: 4;
+}
+
+.flex_conteiner{
+    display: flex;
+    background-color: rgb(155, 64, 64);
+    justify-content: center;
+
+    flex-direction: row;
+}
+
+.flex_conteiner div{
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+}
+
+
+
+@media print{
+
+    .my_photo{
+        display: none !important;
+    }
+
+    #cover{
+        display: block;
+    }    
+}
+
+@media screen and (min-width: 769) and (max-width: 1024px){
+
+    .my_photo{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+    .my_photo{
+        width: 80%;
+        background-color: red;
+    }
 }
